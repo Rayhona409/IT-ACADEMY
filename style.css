@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #263445;
+    line-height: 1.6;
+}
+
+.sarlavha {
+    background-color: #17365D;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.sarlavha h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    background-color: #102846;
+    padding: 12px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+}
+
+.nav a:hover {
+    background-color: #315987;
+}
+
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #17365D;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+section h2 {
+    color: #17365D;
+}
+
+.tugma,
+button {
+    display: inline-block;
+    background-color: #17365D;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.tugma:hover,
+button:hover {
+    background-color: #315987;
+}
+
+input,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+footer {
+    background-color: #17365D;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
